@@ -1,0 +1,1 @@
+let segundos = 15;

